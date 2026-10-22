@@ -13,14 +13,15 @@ Ekranlardagi ismlar, raqamlar va summalar namuna markazniki — real o'quvchi ma
 | [`2-ilova-ekranlari/`](2-ilova-ekranlari/) | Ilova ekranlari — **har bir rol alohida papkada** |
 | [`3-sayt/`](3-sayt/) | Sayt dizayni: bosh sahifa (kompyuter va telefon) va 8 ta rol sahifasi |
 | [`4-logo/`](4-logo/) | Logo: oq va to'q fonda, ilova ikonkalari |
+| [`5-ai-ustoz/`](5-ai-ustoz/) | **AI Ustoz** — o'quvchi bilan chet tilida gaplashadigan sun'iy intellekt: ekranlar va yuz dizayni |
 
 ## 1. Reels video — `1-reels-video/`
 
 | Fayl | Nima |
 |---|---|
-| [`SSENARIY.md`](1-reels-video/SSENARIY.md) | 50 soniyalik ssenariy: sahnalar, vaqt, ekrandagi yozuv, ovoz, montaj qoidalari |
+| [`SSENARIY.md`](1-reels-video/SSENARIY.md) | 50 soniyalik ssenariy (biznes ekspert ohangi): sahnalar, vaqt, ekrandagi yozuv, ovoz, montaj qoidalari |
 | [`OVOZ-50s.txt`](1-reels-video/OVOZ-50s.txt) | Faqat gapiriladigan matn — ElevenLabs'ga to'g'ridan-to'g'ri qo'yiladi |
-| `kadrlar/01-logo.png` … `kadrlar/07-direktor-telefon.png` | Videoda ishlatiladigan 7 ta kadr, sahna tartibida raqamlangan |
+| `kadrlar/01-logo.png` … `kadrlar/08-direktor-telefon.png` | Videoda ishlatiladigan 8 ta kadr, sahna tartibida raqamlangan (06–07 — AI Ustoz) |
 
 ## 2. Ilova ekranlari — rol bo'yicha
 
@@ -74,6 +75,26 @@ Fayl nomi qurilmani bildiradi: `kompyuter-…` — Windows dasturi (1440 × 900)
 ![Edvy logo](4-logo/edvy-logo.png)
 
 Logo foni doim oq: ilova ikonkalari (iPhone, Android, Windows), sayt, chek.
+
+## 5. AI Ustoz — `5-ai-ustoz/`
+
+O'quvchi uyda ham chet tilida (ingliz, turk, rus, koreys va boshqa) ovozli gaplashadi. AI xatosini o'zbekcha tushuntiradi, talaffuzga ball qo'yadi. Hozir sinov rejimida.
+
+| Fayl | Nima |
+|---|---|
+| `1-oquvchi-bosh-sahifasida.png` | O'quvchi bosh sahifasidagi "AI Ustoz" kartasi |
+| `2-mashq-turini-tanlash.png` | Ikki rejim: erkin suhbat va talaffuz mashqi; bugungi vaqt limiti |
+| `3-erkin-suhbat-namuna.png` | Suhbat: o'quvchi xato qiladi, AI o'zbekcha tushuntiradi (namuna) |
+| `4-talaffuz-mashqi-namuna.png` | Talaffuz: so'z, transkripsiya, ball, qayerda xato va qanday aytiladi (namuna) |
+| `5-yuz-dizayni-tez-orada.png` | AI Ustoz yuzi — 3 ko'rinish (Shar, Robot, Ustoz) × 4 kayfiyat. Tez orada |
+
+"Namuna" belgisi — xabarlar ko'rsatish uchun yozilgan, ekran va uning tuzilishi esa ilovaning o'zidan.
+
+| Bosh sahifada | Suhbat | Talaffuz |
+|---|---|---|
+| ![](5-ai-ustoz/1-oquvchi-bosh-sahifasida.png) | ![](5-ai-ustoz/3-erkin-suhbat-namuna.png) | ![](5-ai-ustoz/4-talaffuz-mashqi-namuna.png) |
+
+![AI Ustoz yuzi](5-ai-ustoz/5-yuz-dizayni-tez-orada.png)
 
 ## Ko'rinish
 
